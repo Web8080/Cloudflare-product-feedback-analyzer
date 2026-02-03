@@ -1,0 +1,11 @@
+name = "feedback-insights"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "feedback-db"
+database_id = "cb037167-2022-44ea-8049-29e9ffecea73"
+
+[ai]
+binding = "AI"

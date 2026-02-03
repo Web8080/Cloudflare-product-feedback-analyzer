@@ -1,0 +1,32 @@
+{
+  "name": "feedback-insights",
+  "version": "1.0.0",
+  "description": "A prototype feedback aggregation and analysis tool built on Cloudflare Workers that helps product managers extract meaningful insights from scattered customer feedback across multiple channels using Workers AI, D1, and serverless architecture.",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create feedback-db",
+    "db:migrate": "wrangler d1 execute feedback-db --file=./src/db/schema.sql",
+    "db:migrate:remote": "wrangler d1 execute feedback-db --file=./src/db/schema.sql --remote"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "d1",
+    "workers-ai",
+    "feedback-analysis",
+    "sentiment-analysis",
+    "product-management",
+    "serverless",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260203.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.62.0"
+  }
+}

@@ -1,0 +1,20 @@
+node_modules/
+.wrangler/
+dist/
+*.log
+.DS_Store
+.env
+.env.local
+
+# Documentation/helper files not needed in repo
+GITHUB_PUSH_INSTRUCTIONS.md
+PUSH_TO_GITHUB.md
+push-to-github.sh
+setup-clean-repo.sh
+CLEAN_REPO_SETUP.md
+COMPILE_PDF.md
+fix-git-push.sh
+QUICK_FIX.md
+
+# Other projects not part of this repository
+Recruitment_CRM_ATS/

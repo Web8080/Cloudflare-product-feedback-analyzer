@@ -1,0 +1,1 @@
+Prototype feedback aggregation and analysis tool built on Cloudflare Workers, D1, and Workers AI. Helps product managers extract themes, sentiment, and actionable insights from scattered customer feedback across multiple channels.
